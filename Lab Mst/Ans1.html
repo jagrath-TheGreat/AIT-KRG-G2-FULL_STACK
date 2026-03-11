@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+    function change(){
+        let p = document.getElementById("para");
+    p.textContent = "Welcome to JavaScript DOM Manipulation";
+    p.style.color = "blue";
+    }
+    </script>
+</head>
+<body>
+    <!--  Answer 2. a paragraph tag and a button tag, the button calls  the function change when clicked,  -->
+    <p id="para">THIS IS PARAGRAPH</p>
+    <button onclick="change()" id="btn"> CLICK</button>
+</body>
+</html>
