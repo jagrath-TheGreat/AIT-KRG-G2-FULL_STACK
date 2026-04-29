@@ -19,9 +19,9 @@ function Contact() {
 function App() {
   return (
     <Router>
-      <nav style={{ padding: "10px", background: "#ddd" }}>
-        <Link to="/" style={{ marginRight: "10px" }}>Home</Link>
-        <Link to="/about" style={{ marginRight: "10px" }}>About</Link>
+      <nav>
+        <Link to="/" >Home</Link>
+        <Link to="/about">About</Link>
         <Link to="/contact">Contact</Link>
       </nav>
 
